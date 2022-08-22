@@ -175,6 +175,8 @@ a.linkbox {
 
 .section2 > div {
   height: 221px;
+  display: flex;
+  justify-content: center;
 }
 
 .section2 img {
@@ -182,8 +184,13 @@ a.linkbox {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 90%;
+  height: 100%;
   margin: 0 auto;
+  object-fit: cover;
+}
+.section2 .wrapper {
+  min-width: 360px;
+  padding: 0 20px;
 }
 
 /* .middle-container */
