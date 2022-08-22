@@ -1,0 +1,62 @@
+@import "./util.css";
+@import "./font.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Pretendard", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.watsue-highlight {
+  position: absolute;
+  border-radius: 20px 6px;
+  height: 24px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.watsue-title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.watsue-small-msg {
+  font-family: "NanumBarunpen";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+.watsue-medium-msg {
+  font-family: "NanumBarunpen";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+}
+
+.watsue-rounded {
+  border-radius: 20px 8px;
+}
