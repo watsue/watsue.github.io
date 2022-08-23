@@ -119,6 +119,13 @@ a.linkbox {
   height: 24px;
 }
 
+.neon {
+  background: linear-gradient(#00c696 100%, #00e7bd 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .fixed-container {
   display: flex;
   justify-content: space-between;
@@ -244,6 +251,7 @@ a.linkbox {
 /* bottom-container */
 
 .bottom-container {
+  position: relative;
   height: var(--container-height-short);
   padding-top: 118px;
   background-color: #fff;
@@ -259,6 +267,17 @@ a.linkbox {
 .bottom-container .section7 p:first-child {
   color: var(--color-deep-neon);
   margin-bottom: 43px;
+}
+
+.bottom-container .section7 .highlight-wrapper {
+}
+
+.bottom-container .section7 .highlight {
+  background-color: var(--color-highlight3);
+  left: -10px;
+  right: 0;
+  bottom: -5px;
+  height: 20px;
 }
 
 .bottom-container .section7 .link-wrapper {
@@ -292,4 +311,12 @@ a.linkbox {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+}
+
+.license-link {
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+  font-size: 6px;
+  color: gray;
 }
