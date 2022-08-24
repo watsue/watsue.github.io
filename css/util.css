@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
 .flex-col-center {
   display: flex;
   flex-direction: column;

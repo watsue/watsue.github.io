@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>왓슈 | 무료배달, 픽업할인</title>
-    <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/main.css" />
     <link
       rel="stylesheet"
@@ -83,6 +82,13 @@
       href="assets/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="assets/favicon/manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css"
+      integrity="sha512-/AilQf/shuEGfh8c3DoIqcIqHZCKpiImSyt+fxIKJphHiNa6QMPb6AbDly6rkjmGr/5OZd35JtvVkbEKnCZO+A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
@@ -98,141 +104,146 @@
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
     gtag("config", "G-60M7Y7RZ3S");
   </script>
   <body>
-    <main>
-      <div class="fixed-container">
-        <img src="/assets/logo/logo-tiny.svg" alt="logo" />
-        <a href="" class="fixed-link"
-          >왓슈 미리만나보기
+    <div class="fixed-container">
+      <img src="/assets/logo/logo-tiny.svg" alt="logo" />
+      <a href="" class="fixed-link">
+        <div class="flex-center">
+          왓슈 미리만나보기
           <img src="/assets/right.svg" alt="" />
-        </a>
-      </div>
-      <div class="top-container">
-        <!-- Section 1 -->
-        <section class="section1">
-          <div class="title-lg flex-col-center stacking-context">
-            <div class="relative">
-              내가 시킨건
-              <span class="highlight" />
-            </div>
-            <div class="relative">
-              <span class="text-stroke neon">배달비</span>가
-              <span class="highlight" />
-            </div>
-            <div class="relative">
-              아닌데.
-              <span class="highlight" />
-            </div>
-          </div>
-        </section>
-        <!-- Section 2 -->
-        <section class="section2">
+        </div>
+      </a>
+    </div>
+    <main id="fullPage">
+      <section class="fp-section section" id="slide1">
+        <div class="title-lg flex-col-center stacking-context title-container">
           <div class="relative">
-            <div class="wrapper">
-              <div class="flex-between">
-                <p class="msg-lg text-right">짜장면 <br/ > 6000원에</p>
-                <p class="msg-lg text-left">배달비 <br/ > 4000원?</p>
-              </div>
+            내가 시킨건
+            <span class="highlight" />
+          </div>
+          <div class="relative">
+            <span class="text-stroke neon">배달비</span>가
+            <span class="highlight" />
+          </div>
+          <div class="relative">
+            아니야!
+            <span class="highlight" />
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="justify-center">
+            <div class="wrapper relative">
+              <p class="msg-lg left">짜장면 <br/ > 6000원에</p>
+              <p class="msg-lg right">배달비 <br/ > 4000원?</p>
               <img
                 src="assets/silly-mistake-close-up-cute-asian-girl-saying-sorry-shrugging-shoulders-smiling-with-oops-face-expression-standing-yellow-background 2.png"
                 alt=""
               />
             </div>
           </div>
-          <p class="box-text-md text-center blackbox">
-            무료배달 <br />
-            어디 없나요?
-          </p>
-        </section>
-        <!-- Section 3 -->
-        <section class="section3">
-          <div class="flex-col-center gap-[20px]">
-            <p class="title-lg">무·료·배·달</p>
-            <img src="assets/logo/logo-big.svg" alt="" />
+        </div>
+        <p class="box-text-md text-center blackbox">
+          무료배달 <br />
+          어디 없나요?
+        </p>
+      </section>
+      <section class="fp-section section" id="slide2">
+        <div class="flex-col-center gap-[20px]">
+          <p class="title-lg">무·료·배·달</p>
+          <img src="assets/logo/logo-big.svg" alt="" />
+        </div>
+        <div class="slogan"><span>평생 배달비 무료!</span></div>
+      </section>
+      <section class="fp-section section" id="slide3">
+        <div class="title-lg flex-col-center title-container stacking-context">
+          <div class="relative">
+            걸어가면
+            <span class="highlight" />
           </div>
-        </section>
-      </div>
-      <div class="middle-container">
-        <section class="section4 stacking-context">
-          <div class="title-lg flex-col-center">
-            <div class="relative">
-              걸어가면
-              <span class="highlight" />
-            </div>
-            <div class="relative neon text-stroke">
-              할인
-              <span class="highlight" />
-            </div>
-            <div class="relative">
-              해주시나요?
-              <span class="highlight" />
-            </div>
+          <div class="relative neon text-stroke">
+            할인
+            <span class="highlight" />
           </div>
-        </section>
-        <section class="section5">
+          <div class="relative">
+            해주시나요?
+            <span class="highlight" />
+          </div>
+        </div>
+        <div>
           <div class="img-container">
-            <div class="relative wrapper">
-              <p class="msg-lg">집에서 운동삼아 <br />걸어가보려구요</p>
-              <img
-                src="/assets/beauty-fashion-concept-beautiful-asian-woman-white-t-shirt-pointing-fingers-left-standing-yellow-background 1.png"
-                alt=""
-              />
+            <div class="wrapper justify-center">
+              <div class="relative">
+                <p class="msg-lg">집에서 운동삼아 <br />걸어가보려구요</p>
+                <img
+                  src="/assets/beauty-fashion-concept-beautiful-asian-woman-white-t-shirt-pointing-fingers-left-standing-yellow-background 1.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <p class="blackbox box-text-md text-center">
             픽업도 할인되면 <br />
-            좋을텐데.
+            좋을텐데
           </p>
-        </section>
-        <section class="section6">
-          <div class="flex-col-center gap-[20px]">
-            <p class="title-lg">픽·업·할·인</p>
-            <img src="assets/logo/logo-big.svg" alt="logo" />
+        </div>
+      </section>
+      <section class="fp-section section" id="slide4">
+        <div class="flex-col-center gap-[20px]">
+          <p class="title-lg">픽·업·할·인</p>
+          <img src="assets/logo/logo-big.svg" alt="logo" />
+        </div>
+        <div class="slogan">
+          <span>왓슈로 픽업하면 넘치는 할인!</span>
+        </div>
+      </section>
+      <section class="fp-section section" id="slide5">
+        <div class="container">
+          <div class="flex-col-center gap-[24px]">
+            <img src="/assets/msg.svg" alt="" />
+            <img src="/assets/logo/logo-color.svg" alt="" />
           </div>
-        </section>
-      </div>
-      <!-- bottom -->
-      <div class="bottom-container">
-        <section class="section6 flex-col-center gap-[24px]">
-          <img src="/assets/msg.svg" alt="" />
-          <img src="/assets/logo/logo-md.svg" alt="" />
-        </section>
-        <section class="section7 stacking-context">
-          <p class="title-md text-center">
-            왓슈는 2022년 9월, <br />
+          <p class="title-md text-center container-middle stacking-context">
+            왓슈가 2022년 9월<br />
             <span class="highlight-wrapper relative"
-              >다산진건지구
-              <span class="highlight"></span>
-            </span>
-            에서
-            <br />
-            시작합니다.
+              >다산진건지구<span class="highlight"></span></span
+            >에서 첫 오픈합니다.
           </p>
-          <p class="text-center msg-md">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;축하드려요! 🎉 &nbsp;<br />
-            특별한 분들만 <br />
-            먼저 사용하는 무료배달 왓슈.
-          </p>
-          <div class="link-wrapper">
-            <a href class="linkbox relative flex-center box-text-lg"
-              >미리만나보기
-              <img src="assets/right.svg" alt="" />
-            </a>
+          <div class="container-bottom">
+            <p class="text-center msg-md">
+              지금 앱 사전 신청을 하시면<br />
+              무료배달, 픽업 할인<br />
+              왓슈를 미리 만나볼 수 있어요!
+            </p>
+            <div class="relative">
+              <div class="mark-msg-wrapper">
+                <div class="relative">
+                  <div class="mark-msg">
+                    추첨을 통해 포켓몬 빵의 행운을 받으시려면
+                  </div>
+                  <div class="mark"></div>
+                </div>
+              </div>
+            </div>
+            <div class="relative flex-center">
+              <a href class="linkbox relative flex-center box-text-lg"
+                >사전예약 신청하기
+              </a>
+              <img class="chevron-right" src="assets/right.svg" alt="" />
+            </div>
           </div>
-          <p class="text-center tiny">개인정보를 수집하지 않아요.</p>
-        </section>
-        <p class="bottom-msg text-center">
-          ✅ 서비스 출시 초기, 픽업할인은 일부 매장에서만 진행됩니다.
-        </p>
-        <a
-          class="license-link"
-          href="https://www.freepik.com/photos/young-asian"
-          >Young asian photo created by benzoix - www.freepik.com</a
-        >
-      </div>
+          <a
+            class="license-link"
+            href="https://www.freepik.com/photos/young-asian"
+            >Young asian photo created by benzoix - www.freepik.com</a
+          >
+        </div>
+      </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
