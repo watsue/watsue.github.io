@@ -164,7 +164,7 @@ a.linkbox {
   justify-content: center;
   align-items: center;
   height: 60px;
-  top: 16px;
+  top: 0;
   right: 9px;
   z-index: 100;
 }
