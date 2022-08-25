@@ -170,7 +170,7 @@ a.linkbox {
 }
 
 .fixed-container .fixed-link > div {
-  font-weight: normal;
+  font-weight: 600;
   font-size: 15px;
   line-height: 18px;
   padding: 5px 8px;
@@ -426,6 +426,7 @@ a.linkbox {
 }
 #fp-nav {
   top: 60% !important;
+  left: 7px !important;
 }
 
 #fp-nav a {
@@ -452,4 +453,9 @@ a.linkbox {
   height: 6px !important;
   background-color: #000 !important;
   border: none !important;
+}
+
+#fp-nav li {
+  margin: 0 !important;
+  height: 17px !important;
 }
