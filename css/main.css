@@ -60,7 +60,7 @@ img {
 
 .title-md {
   font-weight: 800;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 38px;
 }
 
@@ -420,11 +420,12 @@ a.linkbox {
 .license-link {
   position: absolute;
   bottom: 5px;
-  left: 20px;
+  left: 38px;
   font-size: 6px;
   color: gray;
 }
 #fp-nav {
+  top: 60% !important;
 }
 
 #fp-nav a {
